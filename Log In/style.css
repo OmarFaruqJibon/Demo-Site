@@ -1,0 +1,115 @@
+body {
+    background: url("img/download.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-main-body {
+    position: absolute;
+    left: 38%;
+    right: 38%;
+    top: 15%;
+}
+@media (max-width:768px){
+    .login-main-body {
+        position: absolute;
+        left: 24%;
+        right: 28%;
+        top: 20%;
+    }
+}
+.loginbody {
+    position: relative;
+    padding: 50px 15px;
+    background: rgba(0, 0, 0,.5);
+    display: block;
+    width: 100%;
+}
+@media (max-width:768px) {
+    .loginbody {
+        position: relative;
+        padding: 50px 15px;
+        background: rgba(0, 0, 0,.5);
+        display: block;
+        width: 100%;
+    }
+}
+.text{
+    color:#fff;
+    position:relative;
+}
+.input{
+   margin-bottom:30px;
+}
+input[type='text'], input[type='password'] {
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid #2b9a93;
+    display: block;
+    background-color: transparent;
+    padding: 6px 0px;
+}
+.login-btn {
+    padding: 7px 20px;
+    border-radius: 50px;
+    background-color: #2b9a93;
+    border:none;
+    font-weight:bolder;
+
+}
+.login-btn a{
+	text-decoration:none;
+	color:white;
+	font-family: 'Bell MT';
+}
+.text-center{
+    text-align:center;
+}
+.block-center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.circle {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    background-color: white;
+    color: #1a8780;
+    top: -11%;
+    left: 33%;
+    border-radius: 50%;
+    border-top: 12px solid #1a8780;
+    border-bottom: 3px solid #36c2b9;
+    border-left: 6px solid #2b9a93;
+    border-right: 6px solid #2b9a93;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+    font-size: 2.5vh;
+    font-family: 'Bell MT';
+    text-transform: uppercase
+}
+@media(max-width:360px){
+    .circle {
+        left: 17%;
+    }
+}
+
+.last span{
+	cursor:pointer;
+}
+.last span:last-child{
+	margin-top:2px;
+}
+
+
+
+
+
+
+
+
+
+
+

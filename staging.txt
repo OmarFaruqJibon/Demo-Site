@@ -1,2 +1,1 @@
 this is a test file for staging branch
-Finally our cloud got the file
